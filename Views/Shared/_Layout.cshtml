@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - core_blog</title>
 
+    <base href="/">
+
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -61,6 +63,15 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+
+    <script src="~/lib/angular/angular.js"></script>
+    <script src="~/lib/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="~/app/app.modules.js"></script>
+    <script src="~/app/app.config.js"></script>
+
+    <script src="~/app/home.controller.js"></script>
+    <script src="~/app/posts.controller.js"></script>
 
     @RenderSection("scripts", required: false)
 </body>

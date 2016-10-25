@@ -191,3 +191,5 @@
 "/home/iocta/Desktop/core-blog/core-blog/Program.cs"
 "/home/iocta/Desktop/core-blog/core-blog/Startup.cs"
 "/home/iocta/Desktop/core-blog/core-blog/Controllers/HomeController.cs"
+"/home/iocta/Desktop/core-blog/core-blog/Controllers/PostController.cs"
+"/home/iocta/Desktop/core-blog/core-blog/Models/Post.cs"
